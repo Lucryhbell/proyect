@@ -1,0 +1,181 @@
+
+.root{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+hr {
+  border-color: gray;
+  border-top: dimgray
+}
+header {
+  margin: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nave{
+  margin: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav{
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+}
+.nav>*+* {
+  margin-left: 1rem;
+}
+.hrInicio{
+  border: none;
+  color: #b3b3b3;
+  background-color: #b3b3b3;
+  height: 15px;
+  width: 2px;
+}
+.tituloNew{
+  text-decoration: none;
+  text-align: center;
+    background: #666666;
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 0.5rem 0rem;
+}
+.contenTitulo{
+  display: flex;
+  height: 150px;
+  background-color: whitesmoke;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+.contenTitulo>*+* {
+  color: #666666;
+}
+.contenTitulo>* {
+  text-align: center;
+  width: 470px;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  
+}
+.contenPrincp{
+  margin-right: 65px;
+  display: flex;
+}
+.contTiulo1 {
+  margin-right: 65px;
+}
+.shopping {
+  text-align: left;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  display: flexbox;
+  grid-template-columns: max-content max-content;
+  grid-gap: 5px;
+  font-size: 25px;
+}
+.totalValor {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  justify-content: space-between;
+  display: flex;
+  font-size: 24px;
+}
+.valores {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  justify-content: space-between;
+  display: flex;
+  font-size: 18px;
+}
+.h1style {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+.contSummary {
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.botons {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#summary{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttonCompra1 {
+  margin-left: 0px;
+  background: #8b8b8b;
+  width: 210px;
+  height: 40px;
+  border-radius: 2px;
+  color: white;
+  font-size: 18px;
+  padding: 0.5rem 0rem;
+  text-align: center;
+}
+.buttonCompra2 {
+  margin-left: 0px;
+  background: #b4b3b3;
+  width: 210px;
+  height: 40px;
+  border-radius: 2px;
+  color: #666666;
+  font-size: 17px;
+  padding: 0.5rem 0rem;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  display: flex;
+  margin: 0 15px;
+  justify-content: center;
+}
+.navf {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.navf>*+* {
+  margin-left: 2rem;
+}
+.navegadoresfinal {
+  align-items: center;
+  display: flex;
+}
+.final {
+  margin-top: 120px;
+}
+.main {
+  margin-top: 90px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
